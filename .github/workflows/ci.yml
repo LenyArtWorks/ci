@@ -20,5 +20,5 @@ jobs:
       - name: Curl localhost
         run: curl http://localhost
 
-      - Stop services
+      - name: Stop services
         run: docker compose down -v
